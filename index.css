@@ -6,8 +6,9 @@ body {
 }
 
 header {
-    background-image: url(Images/yogourt-snowflakes.jpg);
+    background-image: url(Images/);
     border: 2px solid red;
+    background-color: white;
     height: 600px;
     width: 100%;
     border-radius: 10px;
@@ -16,8 +17,9 @@ header {
 
 footer {
     border: 2px solid red;
+    background-color: white;
     border-radius: 10px;
-    background-image: url(Images/yogourt-snowflakes.jpg);
+    background-image: url(Images/);
     height: 600px;
     width: 100%;
 }
@@ -31,9 +33,7 @@ img {
 .image-row {
     display: flex;
     justify-content: center;
-    /* or space-between, space-around, etc. */
     gap: 10px;
-    /* spacing between images */
 }
 
 .image-row img {
@@ -47,4 +47,8 @@ section {
     border: 2px solid yellow;
     border-radius: 10px;
     padding: 50px;
+}
+
+main {
+    background-color: red;
 }
